@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 # ---------------------------------------------------------
 
 llm = ChatOllama(
-    model="qwen3:4b-instruct",  # recommended for speed OR "qwen2.5:14b-instruct" for accuracy
+    model="qwen2.5:14b-instruct",  # recommended for speed OR "qwen2.5:14b-instruct" for accuracy
     temperature=0.0,
     num_predict=1024,
 )
