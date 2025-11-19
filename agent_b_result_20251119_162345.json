@@ -1,0 +1,69 @@
+{
+  "mode": "quick",
+  "summary": {
+    "errors": 2,
+    "warnings": 1,
+    "info": 0,
+    "rules_checked": 4,
+    "rules_failed": 3,
+    "rules_passed": 1,
+    "rules_not_applicable": 0
+  },
+  "violations": [
+    {
+      "rule_id": "IDN-009",
+      "severity": "Error",
+      "section": "Syntactic Rules and Guidelines / Identifier Naming Conventions",
+      "line_range": [
+        37,
+        41
+      ],
+      "violation_description": "Function names must use camelCase.",
+      "suggested_fix": "Rename 'PrintData' to 'printData'."
+    },
+    {
+      "rule_id": "MOD-MEM-001",
+      "severity": "Error",
+      "section": "Modern C++ Guidelines / Memory Management",
+      "line_range": [
+        34,
+        45
+      ],
+      "violation_description": "Avoid raw pointers for ownership.",
+      "suggested_fix": "Replace 'int *rawBuffer' with 'std::unique_ptr<int[]> rawBuffer'."
+    },
+    {
+      "rule_id": "UDT-CLASS-006",
+      "severity": "Warning",
+      "section": "User-defined Types / Classes",
+      "line_range": [
+        34,
+        45
+      ],
+      "violation_description": "Use smart pointers for resource management.",
+      "suggested_fix": "Replace 'int *rawBuffer' with 'std::unique_ptr<int[]> rawBuffer'."
+    }
+  ],
+  "per_rule_status": [
+    {
+      "rule_id": "IDN-009",
+      "status": "fail",
+      "severity": "Error"
+    },
+    {
+      "rule_id": "UDT-CLASS-006",
+      "status": "fail",
+      "severity": "Warning"
+    },
+    {
+      "rule_id": "MOD-MEM-001",
+      "status": "fail",
+      "severity": "Error"
+    },
+    {
+      "rule_id": "MOD-CONTAINER-005",
+      "status": "pass",
+      "severity": "Info"
+    }
+  ]
+}

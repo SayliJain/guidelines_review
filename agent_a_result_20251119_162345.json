@@ -1,0 +1,80 @@
+{
+  "raw": {
+    "code_features": {
+      "has_macros": true,
+      "has_enums": true,
+      "has_classes": true,
+      "has_structs": true,
+      "has_functions": true,
+      "has_namespaces": false,
+      "has_raw_pointers": true,
+      "has_smart_pointers": false,
+      "uses_containers": [
+        "std::vector",
+        "std::map"
+      ],
+      "uses_threads": true,
+      "uses_file_io": false,
+      "uses_exceptions": false,
+      "uses_numeric_literals": true,
+      "uses_headers": true,
+      "has_comments": true
+    },
+    "selected_rule_categories": [
+      "APP-CONC",
+      "DOC",
+      "FUNC",
+      "HDR",
+      "IDN",
+      "MOD-CONC",
+      "MOD-CONTAINER",
+      "MOD-FUNC",
+      "MOD-MEM",
+      "MOD-TYPE",
+      "NUM",
+      "PRM",
+      "UDT-CLASS",
+      "UDT-ENUM",
+      "UDT-STRUCT"
+    ]
+  },
+  "refined": {
+    "code_features": {
+      "has_macros": true,
+      "has_enums": true,
+      "has_classes": true,
+      "has_structs": true,
+      "has_functions": true,
+      "has_namespaces": false,
+      "has_raw_pointers": true,
+      "has_smart_pointers": false,
+      "uses_containers": [
+        "std::vector",
+        "std::map"
+      ],
+      "uses_threads": true,
+      "uses_file_io": false,
+      "uses_exceptions": false,
+      "uses_numeric_literals": true,
+      "uses_headers": true,
+      "has_comments": true
+    },
+    "selected_rule_categories": [
+      "APP-CONC",
+      "DOC",
+      "FUNC",
+      "HDR",
+      "IDN",
+      "MOD-CONC",
+      "MOD-CONTAINER",
+      "MOD-FUNC",
+      "MOD-MEM",
+      "MOD-TYPE",
+      "NUM",
+      "PRM",
+      "UDT-CLASS",
+      "UDT-ENUM",
+      "UDT-STRUCT"
+    ]
+  }
+}
