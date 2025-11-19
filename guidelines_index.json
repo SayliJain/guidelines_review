@@ -1,0 +1,52 @@
+[
+  {
+    "rule_id": "IDN-009",
+    "section": "Syntactic Rules and Guidelines",
+    "subsection": "Identifier Naming Conventions",
+    "category": "IDN",
+    "severity": "Error",
+    "description": "Function names must use camelCase.",
+    "examples": ["void calculateTotal();"],
+    "raw_markdown": "**IDN-009**: Function names must use camelCase."
+  },
+  {
+    "rule_id": "UDT-CLASS-006",
+    "section": "User-defined Types",
+    "subsection": "Classes",
+    "category": "UDT-CLASS",
+    "severity": "Warning",
+    "description": "Use smart pointers for resource management.",
+    "examples": ["std::unique_ptr<int> data;"],
+    "raw_markdown": "**UDT-CLASS-006**: Use smart pointers for resource management."
+  },
+  {
+    "rule_id": "MOD-MEM-001",
+    "section": "Modern C++ Guidelines",
+    "subsection": "Memory Management",
+    "category": "MOD-MEM",
+    "severity": "Error",
+    "description": "Avoid raw pointers for ownership.",
+    "examples": ["std::unique_ptr<Foo> ptr;"],
+    "raw_markdown": "**MOD-MEM-001**: Avoid raw pointers for ownership."
+  },
+  {
+    "rule_id": "APP-SMARTPTR-001",
+    "section": "Application-Level Guidelines",
+    "subsection": "Smart Pointers",
+    "category": "APP-SMARTPTR",
+    "severity": "Warning",
+    "description": "Use std::unique_ptr for exclusive ownership.",
+    "examples": ["std::unique_ptr<Foo> foo = std::make_unique<Foo>();"],
+    "raw_markdown": "**APP-SMARTPTR-001**: Use std::unique_ptr for exclusive ownership."
+  },
+  {
+    "rule_id": "MOD-CONTAINER-005",
+    "section": "Modern C++ Guidelines",
+    "subsection": "Containers and Iterators",
+    "category": "MOD-CONTAINER",
+    "severity": "Info",
+    "description": "Use std::vector as the default sequential container.",
+    "examples": ["std::vector<int> values;"],
+    "raw_markdown": "**MOD-CONTAINER-005**: Use std::vector as default container."
+  }
+]
